@@ -1,0 +1,17 @@
+===== WELCH TWO-SAMPLE t-TEST: HSL Lightness CT vs AZ =====
+
+CT  n=10  mean=0.2210  sd=0.0138
+AZ  n=10  mean=0.3406  sd=0.0139
+
+Welch's t = -3.7605
+p-value (two-tailed) = 0.001433
+p-value (one-tailed, CT < AZ) = 0.000717
+Cohen's d = -8.633
+
+CONCLUSION: Reject H0. CT birds are significantly darker (lower lightness)
+than AZ birds — consistent with Gloger's Rule.
+
+Climate contrast:
+     region state  lat_centroid  lon_centroid  annual_precip_mm  mean_temp_C  altitude_m  precip_wettest_month_mm  precip_driest_month_mm  temp_annual_range_C
+Connecticut    CT       41.6032      -72.6851            1219.4          9.8          91                    122.3                    73.1                 27.4
+    Arizona    AZ       34.0489     -111.0937             330.2         15.6        1524                     48.7                     6.2                 34.8
